@@ -12,6 +12,7 @@
 #output-textarea {
 	width: 95vw;
 	max-width: 350px;
+	height: 100px;
 }
 
 #output
