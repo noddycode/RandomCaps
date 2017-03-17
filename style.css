@@ -6,7 +6,8 @@
 
 #input
 {
-	width: 25vw;
+	width: 95vw;
+	max-width: 350px;
 	margin-top: 1vw;
 }
 
