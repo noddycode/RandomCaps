@@ -3,14 +3,21 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script type = "text/javascript" src = "capsScript.js"></script>
-	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-	<div id = "input">
-		<form id = "string-input-form">
-			<label>Enter the text you want to convert</label><br>
-			<input type = "text" name = "string input" id = "string-input" width = 50/>
-		</form>
+	<div id = "converter">
+		<div id = "input">
+			<form id = "string-input-form" >
+				<label>Enter the text you want to convert</label><br>
+				<textarea id = "string-input" maxlength= 200 ></textarea>
+				<input id = "input-submit" type = "button" value = "Convert" onClick= "randomize()"/>
+			</form>
+		</div>
+		<div id ="output">
+			<label>Output:</label>
+			<textarea id = "output-textarea"></textarea>
+		</div>
 	</div>
 </body>
